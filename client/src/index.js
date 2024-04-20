@@ -58,7 +58,8 @@ function appendEntryToUI(entry) {
 document.addEventListener('DOMContentLoaded', function() {
     fetchEntries();
 });
-  // Example usage
+
+// Example usage
 //  removeEntry(1);
 //  addEntry({ name: "Alice Smith", age: 28, email: "alice@example.com" });
 //  fetchEntries();
