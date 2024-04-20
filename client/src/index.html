@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA with Dynamic DataTables</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+</head>
+<body>
+    <div style="display: flex; flex-direction: column; height: 100vh;">
+        <div style="flex: 1; background-color: #f0f0f0;">
+            <!-- Top Pane - Leave blank -->
+        </div>
+        <div style="flex: 2; overflow: auto;">
+            <table id="myTable" class="display" style="width:100%">
+                <!-- Headers and data will be loaded by DataTables -->
+            </table>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    <script src="index.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
